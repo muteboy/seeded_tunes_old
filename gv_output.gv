@@ -1,0 +1,21 @@
+// Seed 1006721 Recordings
+digraph {
+// Label: Seed 1006721 Recordings
+	graph [splines=ortho]
+	graph [rankdir=LR]
+	node [height=2 shape=record width=2]
+	test_record [label="hello\nworld |{ <there> b |{c|<here> d|e}| f}| g | h"]
+	test_record:here -> test_record:there
+	node [color=lightgrey fixedsize=true fontname=FreeSans height=1.5 shape=box style=filled width=1.5]
+	1006721 [label="Seed
+1006721
+Recordings"]
+// Artist 1/1: Pradmight Bulkson
+	100672101 [label="Pradmight
+Bulkson"]
+	1006721 -> 100672101
+// Album 1/1: Coulation EP
+	10067210101 [label="Coulation
+EP"]
+	100672101 -> 10067210101
+}
